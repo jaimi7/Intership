@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous" />
+    <title>Web Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header {
+            width: 100%;
+            height: 100px;
+            background: #cdffff9c;
+            text-align: end;
+            padding: 30px;
+            box-shadow: 1px 1px 10px 1px rgb(82, 82, 82);
+            color: #665c5c;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .menu {
+            flex-basis: 20%;
+            border-right: 1px solid #8b8b8b;
+            padding: 1px;
+            background: #e7e7e76b;
+        }
+
+        .menu h3 {
+            padding: 10px 20px;
+            border-bottom: 1px solid #000;
+            text-align: center;
+            margin-bottom: 0px;
+        }
+
+        .menu li {
+            list-style: none;
+            border-bottom: 1px solid #8b8b8b;
+        }
+
+        .menu li a {
+            display: block;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-left: 4px solid #c5ffffa8;
+            color: #000;
+            font-size: 17px;
+        }
+
+        .menu li a:hover {
+            border-left: 4px solid #0077c7;
+            color: #0077c7;
+        }
+
+        .contant {
+            padding: 30px;
+        }
+
+        .contant td {
+            padding: 15px 30px;
+            border: 1px solid #a5a5a5;
+        }
+
+        .contant {
+            text-align: justify;
+        }
+
+        .footer ul {
+            display: flex;
+            box-shadow: 1px 1px 10px 1px rgb(82, 82, 82);
+            color: #fff;
+            background: #000000ea;
+            padding: 30px;
+        }
+
+        .footer li {
+            list-style: none;
+            margin: 20px;
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        .footer a:hover {
+            color: #00ffff;
+        }
+
+        .footer i {
+            margin-right: 10px;
+        }
+
+        .contant {
+            flex-basis: 80%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>GET INFO</h1>
+        <h3>Search And Get Knowlage</h3>
+    </div>
+    <div class="container">
+        <div class="menu">
+            <h3>Category</h3>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Gallary</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contanct Us</a></li>
+                <li><a href="">Feedback</a></li>
+            </ul>
+        </div>
+        <div class="contant">
+            <table>
+                <tr>
+                    <td>
+                        <h2>PHP</h2>
+                        <p>PHP: Hypertext Preprocessor<br>
+                            PHP is a general-purpose scripting language especially suited to web development.
+                            It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994.
+                            PHP is a server scripting language, and a powerful tool for making dynamic and interactive
+                            Web pages.
+                            PHP is a widely-used, free. PHP scripts are executed on the server.
+                        </p>
+                    </td>
+                    <td>
+                        <h2>JavaScript</h2>
+                        <p>JavaScript, often abbreviated as JS, is a programming language that conforms to the
+                            ECMAScript specification.
+                            JavaScript is high-level, often just-in-time compiled, and multi-paradigm.
+                            It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and
+                            first-class functions.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>HTML</h2>
+                        <p>HTML : HyperText Markup Language<br>
+                            HTML stands for Hyper Text Markup Language.
+                            HTML is the standard markup language for creating Web pages.
+                            HTML describes the structure of a Web page.
+                            HTML consists of a series of elements.
+                            HTML elements tell the browser how to display the content.
+                        </p>
+                    </td>
+                    <td>
+                        <h2>CSS</h2>
+                        <p>CSS : Cascading Style Sheets<br>
+                            CSS is the language we use to style an HTML document.
+                            CSS describes how HTML elements should be displayed.
+                            With CSS, you can add color and background images and change the layout of your page —
+                            your web pages can feel like works of art!
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="footer">
+        <ul>
+            <li style="color: #00ffff; font-size:20px; margin-right: 80px">Follow us</li>
+            <li><a href=""><i class="fab fa-facebook-f"></i>Facebook</a></li>
+            <li><a href=""><i class="fab fa-instagram"></i>Instagram</a></li>
+            <li><a href=""><i class="fab fa-twitter"></i>Twitter</a></li>
+            <li><a href=""><i class="fab fa-youtube"></i>Youtube</a></li>
+            <li><a href=""><i class="fab fa-linkedin-in"></i>Linkedin</a></li>
+            <li><a href=""><i class="fab fa-pinterest-p"></i>Pinterest</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
