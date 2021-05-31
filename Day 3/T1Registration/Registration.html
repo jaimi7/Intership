@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <form action="Submit.php" method="POST" class="bg-light border rounded w-50 mt-2 mx-auto">
+        <table class="m-5 mx-auto">
+            <tr>
+                <td class="p-2 pr-5">Name</td>
+                <td><input type="text" name="uname" class="p-1"></td>
+            </tr>
+            <tr>
+                <td class="p-2 pr-5">Email</td>
+                <td><input type="email" name="umail" id="" class="p-1"></td>
+            </tr>
+            <tr>
+                <td class="p-2 pr-5">Age</td>
+                <td><input type="number" name="uage" id="" class="p-1"></td>
+            </tr>
+            <tr>
+                <td class="p-2 pr-5">Password</td>
+                <td><input type="password" name="upswd" id="" class="p-1"></td>
+            </tr>
+            <tr>
+                <td class="p-2 pr-5">Confirm Password</td>
+                <td><input type="password" name="ucpswd" id="" class="p-1"></td>
+            </tr>
+            <tr>
+                <td class="p-5"><input type="submit" class="p-2" onclick="signin(this.form); return false;"></td>
+                <td><input type="reset" value="Reset" class="p-2"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html> 
