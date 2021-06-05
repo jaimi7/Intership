@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background: #e2e2e2;
+}
+.header{
+    background: #000;
+    color: #fff;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+.header a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 15px 30px;
+}
+.header a:hover{
+    background: #5a5959;
+}
+.header h1{
+    color: #acfff8;
+    margin: 5px 150px 5px 10px;
+}
+
+
+
+
+.record table{
+    margin: 10px auto;
+    background: #fff;
+    border-radius: 15px;
+    max-width: 95vw;
+    border: none;
+    border-collapse: collapse;
+}
+.record .head th{
+    color: #00d4b8;
+    font-size: 18px;
+    padding: 12px 15px;
+    border-bottom: 1px solid #a1a1a1;
+}
+.record td{
+    padding: 10px;
+}
+.record a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    margin: 5px 2px;
+    padding: 8px;
+    border-radius: 20px;
+}
+.record .delete{
+    background: #b10101;
+}
+.record .delete:hover{
+    background: #ff0000;
+}
+.record .update{
+    background: #00af00;
+}
+.record .update:hover{
+    background: #00ff00;
+}
+
+
+
+
+
+
+h3{
+    text-align: center;
+    margin: 20px auto;
+    width: 300px;
+    padding: 10px 20px;
+    background: #00b89f;
+    color: #fff;
+    border-radius: 20px;
+}
+.container form{
+    width: 500px;
+    margin: 20px auto;
+    padding: 5px;
+    background: #fff;
+    border-radius: 20px;
+}
+.container table{
+    margin: 0px auto;
+}
+td{
+    padding: 8px;
+}
+td input,
+td select{
+    padding: 7px 20px;
+    width: 220px;
+    border: none;
+    border-bottom: 2px solid #00b89f;
+}
+td input:hover,
+td select:hover{
+    border-bottom-color: #5bffe9;
+}
+td input:focus{
+    border-color: aqua;
+}
+.btn input{
+    width: 120px;
+    border: none;
+    background: #5bffe9;
+    border-radius: 20   px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.btn input:hover{
+    background: #00b89f;
+}
+
+
