@@ -1,0 +1,3 @@
+There are screenshorts of First Wordprees project.
+In the project , I create Wordpress website on localhost.
+It's a blog website with dastabase.
